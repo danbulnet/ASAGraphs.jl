@@ -1,0 +1,2 @@
+#!/bin/sh
+julia -O3 -tauto --load $(dirname $0)/../setup.jl --project

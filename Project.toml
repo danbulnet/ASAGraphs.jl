@@ -1,0 +1,4 @@
+name = "ASAGraphs"
+uuid = "2ad41b72-2e9e-43fe-beff-c935f4c60fbd"
+authors = ["danbulnet <daniel@bulanda.net>"]
+version = "0.1.0"
