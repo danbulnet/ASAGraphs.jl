@@ -1,0 +1,2 @@
+#!/bin/sh
+julia -O3 -tauto --project -e "using Pkg; Pkg.test(\"ASAGraphs\")"
