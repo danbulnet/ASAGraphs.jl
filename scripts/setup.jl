@@ -1,6 +1,6 @@
 using Pkg
 
-rootpath = @__DIR__
+rootpath = joinpath(@__DIR__, "..")
 
 Pkg.activate(rootpath)
 Pkg.instantiate()

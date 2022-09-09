@@ -1,2 +1,2 @@
 #!/bin/bash
-julia -O3 -tauto --load $(dirname $0)/../dev.jl --project
+julia -O3 -tauto --load $(dirname $0)/../scripts/dev.jl --project
