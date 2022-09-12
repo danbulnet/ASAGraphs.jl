@@ -1,7 +1,29 @@
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.8.0"
+julia_version = "1.8.1"
 manifest_format = "2.0"
-project_hash = "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+project_hash = "533bf944a174fd957d3be8e008cc3153dade7b90"
 
-[deps]
+[[deps.BioNetCore]]
+deps = ["Dates", "Reexport"]
+git-tree-sha1 = "285c793c2be2c0cb9c7b97fe609ff7da7c476b10"
+repo-rev = "main"
+repo-url = "https://github.com/danbulnet/BioNetCore.jl.git"
+uuid = "bdbc5022-c54b-4a14-a677-079597bdff06"
+version = "0.1.0"
+
+[[deps.Dates]]
+deps = ["Printf"]
+uuid = "ade2ca70-3891-5945-98fb-dc099432e06a"
+
+[[deps.Printf]]
+deps = ["Unicode"]
+uuid = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+[[deps.Reexport]]
+git-tree-sha1 = "45e428421666073eab6f2da5c9d310d99bb12f9b"
+uuid = "189a3867-3050-52da-a836-e630ba90ab69"
+version = "1.2.2"
+
+[[deps.Unicode]]
+uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"

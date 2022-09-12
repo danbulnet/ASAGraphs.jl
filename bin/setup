@@ -1,2 +1,3 @@
 #!/bin/sh
+julia -e "using Pkg; Pkg.add(\"Revise\")"
 julia -O3 -tauto --load $(dirname $0)/../scripts/setup.jl --project
